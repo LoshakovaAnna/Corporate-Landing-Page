@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Exo Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Exo Regular'), local('Exo-Regular'),
+        url("../fonts/exo-regular.woff") format('woff'),
+        url("../fonts/exo-regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Exo Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Exo Italic'), local('Exo-Italic'),
+        url("../fonts/exo-italic.woff") format('woff'),
+        url("../fonts/exo-italic.ttf") format('truetype');
+}
+
+
+@font-face {font-family:"Exo Regular Italic";
+    font-weight:normal;
+    font-style:normal;
+    src:local('Exo Italic Regular'), local('Exo-Italic-Regular'),
+     url("../fonts/exo-regular-italic.woff") format("woff"),
+     url("..fonts/exo-regular-italic.ttf") format("truetype");
+    
+}
+
+
+@font-face {
+    font-family: 'Exo Thin';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Exo Thin'), local('Exo-Thin'),
+        url("../fonts/exo-thin.woff") format('woff'),
+        url("../fonts/exo-thin.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Exo Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Exo Medium'), local('Exo-Medium'),
+        url("../fonts/exo-medium.woff") format('woff'),
+        url("../fonts/exo-medium.ttf") format('truetype');
+}
