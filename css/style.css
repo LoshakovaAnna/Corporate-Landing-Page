@@ -5,6 +5,14 @@
     width:1170px;
     margin: 0 auto;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
 
 .header{
     height: 813px;
@@ -58,4 +66,46 @@
     font-size: 14px;
     width: 205px;
     margin-top: 19px;    
+}
+
+/*************/
+.design{
+    height: 725px;
+}
+.left-col{
+    width: 575px;
+    margin-top: 170px;
+    margin-right: 150px;
+    font-family: 'Exo Medium';
+    font-size: 16px;
+    color: #282828;
+    line-height: 50px;
+}
+.design-title{
+        color: #ff6d6d;       
+        text-transform: uppercase;
+        letter-spacing: 3.2px;
+}
+.design-subtitle{        
+        font-size: 40px ;   
+        letter-spacing: 1.6px;     
+        margin-bottom: 45px;
+}
+.design-subtitle-alt{
+    color: #ff6d6d;
+    font-size: 40px ;     
+    letter-spacing: 1.6px;
+}
+.design-text{
+    opacity: 0.66;
+    letter-spacing: 0.64px;    
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.design-right-column-rect{
+    width: 678px;
+    height: 724px;
+   
+    background: linear-gradient(135deg, #ececec 50%, #fb8686 50%);
 }
