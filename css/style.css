@@ -72,7 +72,7 @@
 .design{
     height: 725px;
 }
-.left-col{
+.design-content{
     width: 575px;
     margin-top: 170px;
     margin-right: 150px;
@@ -108,6 +108,9 @@
     height: 724px;
    
     background: linear-gradient(135deg, #ececec 50%, #fb8686 50%);
+}
+.design-img{
+    padding-top: 90px;
 }
 
 /*******************/
