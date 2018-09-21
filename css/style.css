@@ -13,6 +13,25 @@
     display: flex;
     flex-direction: column;
 }
+.title{
+    font-family: 'Exo Medium';
+    font-size: 16px;
+    color: #282828;
+    font-size: 40px ;   
+        letter-spacing: 1.6px; 
+
+}
+.subtitle{
+    font-family: 'Exo Medium';
+    font-size: 16px;
+    color: #ff6d6d;
+    font-size: 16px;
+   
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+
+    line-height: 50px;
+}
 
 .header{
     height: 813px;
@@ -80,6 +99,7 @@
     font-size: 16px;
     color: #282828;
     line-height: 50px;
+    
 }
 .design-title{
         color: #ff6d6d;       
@@ -115,6 +135,7 @@
 
 /*******************/
 .features{
+    background-image: url(../img/features-bgr.png);
     background-image: url(../img/features-bgr.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,4 +195,159 @@
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.64px;
+}
+
+
+
+/**************/
+.clients{
+    height: 648px;
+    
+    background-image: url(../img/clients-bgr.png);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.clients-photo-rect{
+    width: 76px;
+    height: 76px;
+    border: 2px solid #1d1e24;
+    background-color: #4e4e5e;
+}
+.clients-column{
+    align-items: center;
+    
+}
+.clients-row{
+    padding-top: 110px;
+    justify-content: space-between;
+}
+.client-name{
+       
+    color: #ffffff;
+    
+    font-family: 'Exo Medium';
+    font-size: 22px;
+    line-height: 49.97px;
+    letter-spacing: 0.88px;
+}
+
+.client-position{
+   
+    color: #ff6d6d;
+    font-family: 'Exo Medium';
+    font-size: 16px;
+    line-height: 49.97px;
+}
+
+.client-comment{
+    width: 324px;
+    opacity: 0.66;
+    color: #ffffff;
+    font-family:'Exo Regular Italic';
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    text-align: center;
+}
+.logo-row{
+    padding-top: 80px;
+    height: 65px;
+    width: 965px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logo{
+    height: 65px;
+    width: 100px;
+}
+
+/***************/
+.browser{
+    
+    height: 754px;
+    background-color: #f6f5f3;
+    text-align: center;
+    padding-top: 110px;
+}
+.browser-text{
+    padding-top: 50px;
+    width: 647px;
+    opacity: 0.66;
+    color: #282828;
+    font-family: 'Exo Medium';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    text-align: center;
+    margin: 0 auto;
+}
+.browser-img{
+
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+/*****************/
+.try-now{
+    height: 467px;
+    background-color: #323969;
+}
+
+.try-now-input{
+    width: 263px;
+    height: 49px;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    background-color: #f6f5f3;
+    opacity: 0.5;
+}
+.try-now-button{
+        /* Style for "Rounded Re" */
+    width: 258px;
+    height: 50px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background-color: #ff6d6d;
+}
+.form-font{
+        /* Style for "PASSWORD" */
+    width: 85px;
+    height: 13px;
+    color: #f6f5f3;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    line-height: 75px;
+    text-transform: uppercase;
+    /* Text style for "PASSWORD" */
+    letter-spacing: 0.64px;
+}
+.try-now-agreenment
+{
+    /* Style for "By Signing" */
+width: 375px;
+height: 17px;
+opacity: 0.6;
+color: #f6f5f3;
+font-family: Exo;
+font-size: 16px;
+font-weight: 400;
+line-height: 75px;
+/* Text style for "B, y Signi" */
+letter-spacing: 0.64px;
+/* Text style for "terms & Se" */
+letter-spacing: 0.64px;
+text-decoration: underline;
+padding-top: 200px;
+}
+
+
+/************/
+.footer{
+    height: 332px;;
 }
