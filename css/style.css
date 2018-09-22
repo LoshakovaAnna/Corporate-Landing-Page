@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("fonts.css");
+@import url("font-awesome.min.css");
 
 .centr-position{
     width:1170px;
@@ -32,6 +33,10 @@
 
     line-height: 50px;
 }
+.rel{
+    position: relative;
+}
+
 
 .header{
     height: 813px;
@@ -293,61 +298,173 @@
 
 
 /*****************/
+
 .try-now{
     height: 467px;
     background-color: #323969;
+    padding-top: 90px;
+    text-align: center;
+    color: #ffffff;
+}
+.try-now-title{
+    color: #ffffff;
 }
 
+.try-now-input-row{
+    padding-top: 95px;
+    justify-content: space-between;
+    width: 100%;
+}
 .try-now-input{
-    width: 263px;
-    height: 49px;
+    width: 261px;
+    height: 46px;
     border-radius: 3px;
     border: 1px solid #ffffff;
-    background-color: #f6f5f3;
-    opacity: 0.5;
+    background-color: #474d78;
+    color: #ffffff;
+}
+.try-now-input::placeholder{
+        padding-left: 29px;
+    color: #f6f5f3;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    line-height: 75px;
+    text-transform: uppercase;
+    /* Text style for "FULL NAME" */
+    letter-spacing: 0.64px;
+   
 }
 .try-now-button{
-        /* Style for "Rounded Re" */
     width: 258px;
     height: 50px;
     box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
     border-radius: 3px;
     border: 1px solid #ff6d6d;
     background-color: #ff6d6d;
+
+    
+    color: #f6f5f3;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+    /* Text style for "TRY NOW" */
+    letter-spacing: 0.81px;
 }
-.form-font{
-        /* Style for "PASSWORD" */
-    width: 85px;
-    height: 13px;
+.try-now-agreenment
+{
+    opacity: 0.6;
     color: #f6f5f3;
     font-family: 'Exo Regular';
     font-size: 16px;
     line-height: 75px;
-    text-transform: uppercase;
-    /* Text style for "PASSWORD" */
     letter-spacing: 0.64px;
 }
-.try-now-agreenment
-{
-    /* Style for "By Signing" */
-width: 375px;
-height: 17px;
-opacity: 0.6;
-color: #f6f5f3;
-font-family: Exo;
-font-size: 16px;
-font-weight: 400;
-line-height: 75px;
-/* Text style for "B, y Signi" */
-letter-spacing: 0.64px;
-/* Text style for "terms & Se" */
-letter-spacing: 0.64px;
-text-decoration: underline;
-padding-top: 200px;
+
+.try-now-arrow-img, .try-now-sale{
+    position: absolute;
 }
+.try-now-arrow-img{
+    left: 917px;
+    top: 41px;
+}
+.try-now-sale{
+    left: 950px;
+    top: 7px;
 
-
+  
+    height: 18px;
+    color: #f6f5f3;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    line-height: 75px;
+    letter-spacing: 0.64px;
+}
 /************/
 .footer{
-    height: 332px;;
+    height: 238px;
+    padding-top: 94px;
+    justify-content: space-around;
+}
+
+.footer-triangle{
+    position: absolute;     
+    left: 65px;
+    top: -7px;
+}
+.footer-logo{
+    color: #2c2f49;
+    font-family: 'Lato Regular';
+    font-size: 27px;   
+}
+.footer-logo-alt{
+    z-index: 3000;
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-about{
+    padding-top: 28px;
+    width: 232px;
+    opacity: 0.56;
+    color: #282828;
+    font-family: 'Exo Medium';
+    font-size: 14px;
+    line-height: 26px;
+    /* Text style for "Aenean lac" */
+    letter-spacing: 0.56px;
+}
+.footer-link{
+    text-decoration: none;  
+    opacity: 0.66;
+    color: #282828;
+    font-family: 'Exo Regular';
+
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.56px;
+}
+
+.footer-column-title{
+  
+    color: #282828;
+    font-family: 'Exo Medium';
+    font-size: 22px;
+    letter-spacing: 0.88px;
+    padding-bottom: 22px;
+}
+
+.footer-email{
+  
+    width: 263px;
+    height: 46px;
+    border-radius: 3px;
+    border: 1px solid #b8b8bf;
+    background-color: #f6f6f6;
+
+}
+.footer-email::placeholder{
+    padding-left: 29px;
+    opacity: 0.4;
+    color: #000000;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    line-height: 49px;
+    text-transform: uppercase;
+    letter-spacing: 0.64px;
+}
+
+.circle-twitter-icon{
+
+}
+
+.footer-icon{
+    color: #cccccc;
+    font-size: 21px;
+}
+.footer-icon-row{
+    width: 154px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-between
 }
