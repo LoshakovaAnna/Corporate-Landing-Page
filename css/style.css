@@ -1,8 +1,9 @@
 @import url("reset.css");
 @import url("fonts.css");
+@import url("font-awesome.min.css");
 
 .centr-position{
-    width:1170px;
+    width:1140px;
     margin: 0 auto;
 }
 .row{
@@ -13,25 +14,57 @@
     display: flex;
     flex-direction: column;
 }
-.title{
-    font-family: 'Exo Medium';
-    font-size: 16px;
-    color: #282828;
-    font-size: 40px ;   
-        letter-spacing: 1.6px; 
-
+.rel{
+    position: relative;
 }
-.subtitle{
+.title{
+    color: #282828;
     font-family: 'Exo Medium';
-    font-size: 16px;
-    color: #ff6d6d;
-    font-size: 16px;
-   
-    text-transform: uppercase;
-    letter-spacing: 3.2px;
-
+    font-size: 40px;   
+    letter-spacing: 1.6px; 
     line-height: 50px;
 }
+.title-alt{
+    color: #ff6d6d;
+    font-family: 'Exo Medium';
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+
+}
+.title-white{
+    color: #ffffff;
+    font-family: 'Exo Medium';
+    font-size: 40px;   
+    letter-spacing: 1.6px; 
+    line-height: 50px;
+}
+.subtitle{
+    color: #ff6d6d;
+    font-family: 'Exo Medium';
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;    
+}
+.text{ 
+    color: #282828;  
+    opacity: 0.66;  
+    font-family: 'Exo Medium';
+    font-size: 16px;
+    line-height: 26px;    
+    letter-spacing: 0.64px;
+}
+
+.column-title{
+    color: #282828; 
+    font-family: 'Exo Medium';
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: 0.88px;
+ }
+ 
+
 
 .header{
     height: 813px;
@@ -44,6 +77,7 @@
     margin: 0 auto;
     padding-top: 225px;
     color: #282828;
+
     font-family: 'Exo Thin';
     font-size: 60px;
     line-height: 75px;
@@ -90,113 +124,96 @@
 /*************/
 .design{
     height: 725px;
+    background: linear-gradient(90deg, #ffffff 60%, #ececec 40%);
 }
 .design-content{
     width: 575px;
-    margin-top: 170px;
-    margin-right: 150px;
-    font-family: 'Exo Medium';
-    font-size: 16px;
-    color: #282828;
-    line-height: 50px;
-    
+    margin-top: 170px;      
 }
-.design-title{
-        color: #ff6d6d;       
-        text-transform: uppercase;
-        letter-spacing: 3.2px;
+.design-content-alt{
+    width: 505px;
+    margin-top: 90px; 
+    margin-left: 590px;     
 }
-.design-subtitle{        
-        font-size: 40px ;   
-        letter-spacing: 1.6px;     
-        margin-bottom: 45px;
+.design-header--pad{
+    margin-bottom: 45px;
 }
-.design-subtitle-alt{
-    color: #ff6d6d;
-    font-size: 40px ;     
-    letter-spacing: 1.6px;
+.design-header--pad-alt{
+    margin-bottom: 35px;
 }
-.design-text{
-    opacity: 0.66;
-    letter-spacing: 0.64px;    
-    line-height: 26px;
-    margin-bottom: 40px;
+.design-text{   
+    margin-bottom: 35px;
 }
 
 .design-right-column-rect{
-    width: 678px;
-    height: 724px;
    
-    background: linear-gradient(135deg, #ececec 50%, #fb8686 50%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom right, #ececec 50%, #fb8686 50%);
+    width: 40%;
+    height: 480px;
 }
-.design-img{
-    padding-top: 90px;
+.macbook{
+    top: 90px;
+    position: absolute;
+    left: -100px;
+    z-index: 1000;
+}
+
+.design-alt-rect-gradient{
+    position: absolute;
+    width:42%;
+    height: 550px;
+    top: 0;
+    left: 0;
+ 
+    background: linear-gradient(45deg, #fb8686 49%, #ffffff 0%);
+}
+.design-alt-section {
+    height: 550px;
 }
 
 /*******************/
 .features{
-    background-image: url(../img/features-bgr.png);
-    background-image: url(../img/features-bgr.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f6f5f3;
     height: 675px;
-    text-align: center;
-    
-    font-family: 'Exo Medium';
+    text-align: center;   
+   
+}
+.pen-holder{
+    position: absolute;
+    top: 0;
+    left: -70px;
+}
+.headphone{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.cup-coffee{
+    position: absolute;
+    bottom: 0;
+    right: -90px;
 }
 
-.features-title{
-    color: #ff6d6d;
-    font-size: 16px;
-    font-weight: 500;
-   
-    text-transform: uppercase;
-    letter-spacing: 3.2px;
-
-    padding-top: 138px;
-}
-.features-subtitle{
-   
-    color: #282828;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 49.97px;
-    letter-spacing: 1.6px;
-
+.features-header{  
+    padding-top: 135px; 
     margin-bottom: 90px;
 }
 
 .features-content{
     justify-content: space-between;    
+    padding-bottom: 160px;
+}
+.features-content-column--width{
+    width: 344px;
 }
 .features-circle{
     margin: 0 auto;
     width: 66px;
-    height: 66px;/*
-    background-image: url(../img/features1.png);/*
-    border: 1px solid rgba(14, 15, 15, 0.15);
-    border-radius: 50%;*/
+    height: 66px;
 }
-
-
-.features-column-title{
-   color: #282828;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 49.97px;
-    letter-spacing: 0.88px;
-}
-
-.features-column-text{
-    width: 344px;
-    opacity: 0.66;
-    color: #282828;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.64px;
-}
-
 
 
 /**************/
@@ -270,84 +287,201 @@
     height: 754px;
     background-color: #f6f5f3;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 100px;
 }
 .browser-text{
     padding-top: 50px;
     width: 647px;
-    opacity: 0.66;
-    color: #282828;
-    font-family: 'Exo Medium';
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.64px;
+    
     text-align: center;
     margin: 0 auto;
 }
 .browser-img{
-
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 151px;
 }
 
 
 /*****************/
+
 .try-now{
     height: 467px;
     background-color: #323969;
+    padding-top: 90px;
+    text-align: center;
+    color: #ffffff;
 }
 
+
+.try-now-input-row{
+    padding-top: 95px;
+    justify-content: space-between;
+    width: 100%;
+}
 .try-now-input{
-    width: 263px;
-    height: 49px;
+    width: 261px;
+    height: 46px;
     border-radius: 3px;
     border: 1px solid #ffffff;
-    background-color: #f6f5f3;
-    opacity: 0.5;
+    background-color: #474d78;
+    color: #ffffff;
+}
+.try-now-input::placeholder{
+        padding-left: 29px;
+    color: #f6f5f3;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    line-height: 75px;
+    text-transform: uppercase;
+    /* Text style for "FULL NAME" */
+    letter-spacing: 0.64px;
+   
 }
 .try-now-button{
-        /* Style for "Rounded Re" */
     width: 258px;
     height: 50px;
     box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
     border-radius: 3px;
     border: 1px solid #ff6d6d;
     background-color: #ff6d6d;
+
+    
+    color: #f6f5f3;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.81px;
 }
-.form-font{
-        /* Style for "PASSWORD" */
-    width: 85px;
-    height: 13px;
+.try-now-agreenment
+{
+    opacity: 0.6;
+    color: #f6f5f3;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    
+    letter-spacing: 0.64px;
+
+    padding-top: 50px;
+}
+
+.try-now-arrow-img, .try-now-sale{
+    position: absolute;
+}
+.try-now-arrow-img{
+    left: 900px;
+    top: 41px;
+}
+.try-now-sale{
+    left: 930px;
+    top: 7px;
+
+  
+    height: 18px;
     color: #f6f5f3;
     font-family: 'Exo Regular';
     font-size: 16px;
     line-height: 75px;
-    text-transform: uppercase;
-    /* Text style for "PASSWORD" */
     letter-spacing: 0.64px;
 }
-.try-now-agreenment
-{
-    /* Style for "By Signing" */
-width: 375px;
-height: 17px;
-opacity: 0.6;
-color: #f6f5f3;
-font-family: Exo;
-font-size: 16px;
-font-weight: 400;
-line-height: 75px;
-/* Text style for "B, y Signi" */
-letter-spacing: 0.64px;
-/* Text style for "terms & Se" */
-letter-spacing: 0.64px;
-text-decoration: underline;
-padding-top: 200px;
-}
-
-
 /************/
 .footer{
-    height: 332px;;
+    height: 238px;
+   
+}
+.footer-content{
+    padding-top: 94px;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+.footer-triangle{
+    position: absolute;     
+    left: 65px;
+    top: -7px;
+}
+.footer-logo{
+    color: #2c2f49;
+    font-family: 'Lato Regular';
+    font-size: 27px;   
+}
+.footer-logo-alt{
+    z-index: 3000;
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-about{
+    padding-top: 28px;
+    width: 232px;
+    opacity: 0.56;
+    color: #282828;
+    font-family: 'Exo Medium';
+    font-size: 14px;
+    line-height: 26px;
+    /* Text style for "Aenean lac" */
+    letter-spacing: 0.56px;
+}
+.footer-link{
+    text-decoration: none;  
+    opacity: 0.66;
+    color: #282828;
+    font-family: 'Exo Regular';
+
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.56px;
+}
+
+.footer-column-title{
+  
+    color: #282828;
+    font-family: 'Exo Medium';
+    font-size: 22px;
+    letter-spacing: 0.88px;
+    padding-bottom: 22px;
+}
+
+.footer-email{
+  
+    width: 263px;
+    height: 46px;
+    border-radius: 3px;
+    border: 1px solid #b8b8bf;
+    background-color: #f6f6f6;
+
+}
+.footer-email::placeholder{
+    padding-left: 29px;
+    opacity: 0.4;
+    color: #000000;
+    font-family: 'Exo Regular';
+    font-size: 16px;
+    line-height: 49px;
+    text-transform: uppercase;
+    letter-spacing: 0.64px;
+}
+
+.circle-twitter-icon{
+
+}
+
+.footer-icon{
+    color: #cccccc;
+    font-size: 21px;
+}
+.footer-icon-row{
+    width: 154px;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: space-between
+}
+.footer-gradient{
+    width: 22%;
+     height: 333px;
+     position: absolute;
+     top: 0;
+     right: 0;
+     background: linear-gradient(to top right, #ffffff 50%, #fb8686 50%);
+     z-index: -5;
 }
