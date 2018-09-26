@@ -30,7 +30,6 @@
     font-size: 40px;
     line-height: 50px;
     letter-spacing: 1.6px;
-
 }
 .title-white{
     color: #ffffff;
@@ -55,16 +54,13 @@
     line-height: 26px;    
     letter-spacing: 0.64px;
 }
-
 .column-title{
     color: #282828; 
     font-family: 'Exo Medium';
     font-size: 22px;
     line-height: 50px;
     letter-spacing: 0.88px;
- }
- 
-
+} 
 
 .header{
     height: 100%;
@@ -124,6 +120,7 @@
 }
 
 /*************/
+
 .design{
     background: linear-gradient(90deg, #ffffff 60%, #ececec 40%);
 }
@@ -146,7 +143,6 @@
 .design-text{   
     margin-bottom: 35px;
 }
-
 .design-right-column-rect{
    z-index: 0;
     position: absolute;
@@ -162,24 +158,22 @@
     left: -100px;
     z-index: 1000;
 }
-
 .design-alt-rect-gradient{
     position: absolute;
     width:42%;
     height: 550px;
     top: 0;
-    left: 0;
- 
+    left: 0; 
     background: linear-gradient(45deg, #fb8686 49%, #ffffff 0%);
 }
 .design-alt-section {
-   /* height: 550px;*/
+  
 }
 
 /*******************/
+
 .features{
-    background-color: #f6f5f3;
-    
+    background-color: #f6f5f3;    
     text-align: center;   
    
 }
@@ -198,12 +192,10 @@
     bottom: 0;
     right: -90px;
 }
-
 .features-header{  
     padding-top: 135px; 
     margin-bottom: 90px;
 }
-
 .features-content{
     justify-content: space-between;    
     padding-bottom: 160px;
@@ -217,11 +209,9 @@
     height: 66px;
 }
 
-
 /**************/
+
 .clients{
-    /*height: 648px;*/
-    
     background-image: url(../img/clients-bgr.png);
     opacity: 0.8;
     background-repeat: no-repeat;
@@ -242,18 +232,14 @@
     padding-top: 110px;
     justify-content: space-between;
 }
-.client-name{
-       
-    color: #ffffff;
-    
+.client-name{       
+    color: #ffffff;    
     font-family: 'Exo Medium';
     font-size: 22px;
     line-height: 49.97px;
     letter-spacing: 0.88px;
 }
-
-.client-position{
-   
+.client-position{   
     color: #ff6d6d;
     font-family: 'Exo Medium';
     font-size: 16px;
@@ -273,6 +259,7 @@
 }
 .logo-row{
     padding-top: 80px;
+    padding-bottom: 85px;
     height: 65px;
    
     justify-content: space-between;
@@ -284,8 +271,8 @@
 }
 
 /***************/
-.browser{
-    
+
+.browser{    
     background-color: #f6f5f3;
     text-align: center;
     padding-top: 100px;
@@ -302,17 +289,14 @@
     margin-top: 151px;
 }
 
-
 /*****************/
 
 .try-now{
-  /*  height: 467px;*/
     background-color: #323969;
     padding-top: 90px;
     text-align: center;
     color: #ffffff;
 }
-
 
 .try-now-input-row{
     padding-top: 95px;
@@ -328,15 +312,13 @@
     color: #ffffff;
 }
 .try-now-input::placeholder{
-        padding-left: 29px;
+    padding-left: 29px;
     color: #f6f5f3;
     font-family: 'Exo Regular';
     font-size: 16px;
     line-height: 75px;
     text-transform: uppercase;
-    /* Text style for "FULL NAME" */
-    letter-spacing: 0.64px;
-   
+    letter-spacing: 0.64px;   
 }
 .try-now-button{
     width: 258px;
@@ -345,7 +327,6 @@
     border-radius: 3px;
     border: 1px solid #ff6d6d;
     background-color: #ff6d6d;
-
     
     color: #f6f5f3;
     font-family: 'Exo Regular';
@@ -359,13 +340,12 @@
     opacity: 0.6;
     color: #f6f5f3;
     font-family: 'Exo Regular';
-    font-size: 16px;
-    
+    font-size: 16px;    
     letter-spacing: 0.64px;
-
     padding-top: 50px;
-}
 
+    padding-bottom: 75px;
+}
 .try-now-arrow-img, .try-now-sale{
     position: absolute;
 }
@@ -375,9 +355,7 @@
 }
 .try-now-sale{
     left: 930px;
-    top: 7px;
-
-  
+    top: 7px;  
     height: 18px;
     color: #f6f5f3;
     font-family: 'Exo Regular';
@@ -385,17 +363,17 @@
     line-height: 75px;
     letter-spacing: 0.64px;
 }
+
 /************/
+
 .footer{
-    height: 238px;
-   
+    height: 238px;   
 }
 .footer-content{
     padding-top: 94px;
     justify-content: space-around;
     z-index: 1000;
 }
-
 .footer-triangle{
     position: absolute;     
     left: 65px;
@@ -411,7 +389,6 @@
     color: #ffffff;
     padding-left: 8px;
 }
-
 .footer-about{
     padding-top: 28px;
     width: 232px;
@@ -420,8 +397,10 @@
     font-family: 'Exo Medium';
     font-size: 14px;
     line-height: 26px;
-    /* Text style for "Aenean lac" */
     letter-spacing: 0.56px;
+}
+.link-tel{
+    text-decoration: none;
 }
 .footer-link{
     text-decoration: none;  
@@ -433,9 +412,10 @@
     line-height: 30px;
     letter-spacing: 0.56px;
 }
-
-.footer-column-title{
-  
+.footer-icon:hover{
+    color: #474d78;
+}
+.footer-column-title{  
     color: #282828;
     font-family: 'Exo Medium';
     font-size: 22px;
@@ -445,11 +425,14 @@
 
 .footer-email{
   
-    width: 263px;
-    height: 46px;
-    border-radius: 3px;
+    width: 191px;
+    height: 26px;
     border: 1px solid #b8b8bf;
     background-color: #f6f6f6;
+    border-right: none;
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 
 }
 .footer-email::placeholder{
@@ -462,11 +445,21 @@
     text-transform: uppercase;
     letter-spacing: 0.64px;
 }
-
-.circle-twitter-icon{
-
+.footer-subsribe{
+    /* Style for "Rounded Re" */
+    width: 52px;
+    height: 49px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background-color: #ff6d6d;
+    
+    background-image: url('../img/subscribe-arrow.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
 }
-
 .footer-icon{
     color: #cccccc;
     font-size: 21px;
@@ -479,34 +472,32 @@
 }
 .footer-gradient{
     width: 22%;
-     height: 333px;
-     position: absolute;
-     top: 0;
-     right: 0;
-     background: linear-gradient(to top right, #ffffff 50%, #fb8686 50%);
-     z-index: -5;
+    height: 333px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to top right, #ffffff 50%, #fb8686 50%);
+    z-index: -5;
 }
 
 
 
-@media screen and (max-width: 600px){
-   
-    
+@media screen and (max-width: 600px){ 
+    .centr-position{
+        width: calc(100%-10px);
+    }
     .header-text{
         padding-top: 30px;
         font-size: 35px;
         line-height: 40px;
     }
     .play-circle {
-
         margin-top: 15px;
         margin-bottom: 15px;
     }
     .header-text-alt{
-        color: #ff1010;
-       
+        color: #ff1010;       
     }
-    
     .design{
         background: #ffffff;
     }
@@ -518,26 +509,19 @@
         flex-direction: column;
         align-items: center;
     }
-
-    .cup-coffee{
-        right: 0;
-    }
-     
-     
-     .design-content-alt{
+  
+    .design-content-alt{
         margin-left: 10px;  
-     }
-     .clients-row{
-         flex-direction: column;
-     }
-    
-     .try-now-input-row{
+    }
+    .clients-row{
+        flex-direction: column;
+    }
+    .try-now-input-row{
         flex-direction: column;
         align-items: center;
-        height: 400px;
-        
-     }
-     .try-now-arrow-img{
+        height: 400px;        
+    }
+    .try-now-arrow-img{
         left: calc(50% - 110px);
         top: 380px;
     }
@@ -552,7 +536,7 @@
         flex-direction: column;
     }
     .logo-row, .macbook, .design-alt-rect-gradient,
-    .browser-img,
+    .browser-img,  .cup-coffee, .headphone, .pen-holder,
     .design-right-column-rect{
         display: none;
     
@@ -560,8 +544,7 @@
 }
 
 @media screen and (min-width: 601px) 
-and (max-width: 800px) {
-   
+and (max-width: 800px) {   
     .header-text{
         padding-top: 30px;
         font-size: 35px;
@@ -569,31 +552,27 @@ and (max-width: 800px) {
     }
     .header-text-alt{
         color: #ff1010;
-    }
-    
-    .design-content{
-        
+    }    
+    .design-content{        
         margin-top: 10px;      
     }
     .features-content{
         flex-direction: column;
         align-items: center;
     }
-
     .cup-coffee{
         right: 0;
-    }
-    
+    }    
      .macbook{
         left: 0;
         top: 170px
      }
      .laptop-text{
-         width: 445px;
-         position: absolute;
-         top: 210px;
-         left: 100px;
-         z-index: 2000;
+        width: 445px;
+        position: absolute;
+        top: 210px;
+        left: 100px;
+        z-index: 2000;
      }
      
     .design-content-alt{
@@ -603,18 +582,15 @@ and (max-width: 800px) {
     .design-alt-section{
         height: 545px;
     }
-
     .clients-row{
         flex-direction: column;
-    }
-    
+    }    
     .try-now-input-row{
         flex-direction: column;
         align-items: center;
-        height: 400px;
-        
+        height: 400px;        
      }
-     .try-now-arrow-img{
+    .try-now-arrow-img{
         left: calc(50% - 110px);
         top: 380px;
     }
@@ -638,57 +614,56 @@ and (max-width: 800px) {
 and (max-width: 1023px) {
     .header-text{
         padding-top: 115px;
-       font-size: 55px;
+        font-size: 55px;
         line-height: 60px;
     }
     .design{
-        height: 725px;}
-        .cup-coffee{
-            right: 0;
-        }
-    
-    .macbook{
+        height: 725px;
+    }
+    .cup-coffee{
+        right: 0;
+    }
+        .macbook{
         left: -160px;
-     }
-     .design-content-alt{
-         margin-left: 462px;
-     }
+    }
+    .design-content-alt{
+        margin-left: 462px;
+    }
      .design-alt-section{
         height: 550px;
     }
     .clients-row{
         flex-direction: column;
     }
-  .try-now-input-row{
-     flex-wrap: wrap;
-     margin-left: 30px;
-     width: 770px;
-  }
-.try-now-input{
-    width: 200px;
-}
-  .try-now-arrow-img{
-    left: 69px;
-    top: 169px;
-}
-.try-now-sale{
-    left: 90px;
-    top: 145px;
-}
-.try-now-button{
-    margin-top: 75px;
-    margin-left: 100px;
-}
-.logo-row, {
-       display: none;
+    .try-now-input-row{
+        flex-wrap: wrap;
+        margin-left: 30px;
+        width: 770px;
+    }
+    .try-now-input{
+        width: 200px;
+    }
+    .try-now-arrow-img{
+        left: 69px;
+        top: 169px;
+    }
+    .try-now-sale{
+        left: 90px;
+        top: 145px;
+    }
+    .try-now-button{
+        margin-top: 75px;
+        margin-left: 100px;
+    }
+    .logo-row {
+    display: none;
    }
 } 
 @media screen and (min-width: 1024px) 
  {
     .header{
         height: 813px;
-    }
-       
+    }       
     .design{
         height: 725px;
     }
@@ -696,11 +671,9 @@ and (max-width: 1023px) {
         height: 550px;
     }
     .browser{
+        height: 754px;
+    }
     
-        height: 754px;}
-    
-     .footer{
-       
-   }
+     
 }  
 
