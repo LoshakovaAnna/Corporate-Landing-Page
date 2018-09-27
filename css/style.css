@@ -125,7 +125,7 @@
     background: linear-gradient(90deg, #ffffff 60%, #ececec 40%);
 }
 .design-content{
-    width: 560px;
+    max-width: 538px;
     margin-top: 170px; 
     z-index: 1000;     
 }
@@ -328,7 +328,7 @@
     border-radius: 3px;
     border: 1px solid #ff6d6d;
     background-color: #ff6d6d;
-    
+    cursor: pointer;
     color: #f6f5f3;
     font-family: 'Exo Regular';
     font-size: 16px;
@@ -492,7 +492,7 @@
     .header-text{
         padding-top: 30px;
         padding-right: 10px;
-        padding-left: 10x;
+        padding-left: 10px;
         font-size: 30px;
         line-height: 35px;
     }
@@ -553,16 +553,22 @@
     .footer-content{
         flex-direction: column;
     }
-    .logo-row, .macbook, .design-alt-rect-gradient,
-    .browser-img,  .cup-coffee, .headphone, .pen-holder,
-    .design-right-column-rect{
-        display: none;
-    
+    .footer-column-title{
+        margin-top: 10px;
     }
-   
-      .footer{
-        display: none;
+    .logo-row,
+    .macbook,
+    .design-alt-rect-gradient,
+    .browser-img,  
+    .cup-coffee, 
+    .headphone, 
+    .pen-holder,
+    .design-right-column-rect,    
+    .footer-gradient
+    {
+        display: none;    
     }
+     
 }
 
 @media screen and (min-width: 601px) 
@@ -577,7 +583,7 @@ and (max-width: 800px) {
     .header-text{
         padding-top: 30px;
         padding-right: 10px;
-        padding-left: 10x;
+        padding-left: 10px;
         font-size: 35px;
         line-height: 40px;
     }
@@ -644,9 +650,6 @@ and (max-width: 800px) {
     }
 
 
-     .footer{
-    display: none;
-}
 }
 @media screen and (min-width: 801px) 
 and (max-width: 1023px) {
@@ -693,9 +696,7 @@ and (max-width: 1023px) {
     .logo-row {
             display: none;
    }
-   .footer{
-       display: none;
-   }
+   
 } 
 @media screen and (min-width: 1024px) 
 and (max-width: 1300px) {
@@ -721,9 +722,7 @@ and (max-width: 1300px) {
         height: 754px;
     }
 
-.footer{
-        display: none;
-    }
+
 }  
 
 @media screen and (min-width: 801px) 
