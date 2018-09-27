@@ -311,6 +311,7 @@
     border: 1px solid #ffffff;
     background-color: #474d78;
     color: #ffffff;
+    padding-left: 29px;
 }
 .try-now-input::placeholder{
     padding-left: 29px;
@@ -447,7 +448,6 @@
     letter-spacing: 0.64px;
 }
 .footer-subsribe{
-    /* Style for "Rounded Re" */
     width: 52px;
     height: 49px;
     box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
@@ -467,7 +467,7 @@
 }
 .footer-icon-row{
     width: 154px;
-    margin: 0 auto;
+    margin-left: 50px;
     margin-top: 20px;
     justify-content: space-between
 }
@@ -539,16 +539,12 @@
         align-items: center;
         height: 370px;        
     }
-    .try-now-arrow-img{
-        right: calc(50% + 50px);
-        top: 360px;
-    }
-    .try-now-sale{
-        right: calc(50% - 110px);
-        top: 330px;
+    .try-now-input{
+        width: 90%;
     }
     .try-now-button{
-        margin-top: 75px;
+        margin-top: 0;
+        width: 100%;
     }
     .footer-content{
         flex-direction: column;
@@ -556,6 +552,8 @@
     .footer-column-title{
         margin-top: 10px;
     }
+    .try-now-arrow-img,
+    .try-now-sale,
     .logo-row,
     .macbook,
     .design-alt-rect-gradient,
@@ -567,8 +565,7 @@
     .footer-gradient
     {
         display: none;    
-    }
-     
+    }     
 }
 
 @media screen and (min-width: 601px) 
@@ -593,6 +590,9 @@ and (max-width: 800px) {
     .design-content{        
         margin-top: 10px;      
     }
+    .design{
+        background: #ffffff;
+    }
     .features-content{
         flex-direction: column;
         align-items: center;
@@ -600,26 +600,25 @@ and (max-width: 800px) {
     .cup-coffee{
         right: 0;
     }    
-     .macbook{
-        left: 0;
-        top: 170px
-     }
-     .laptop-text{
+    .macbook{
+    left: 0;
+    top: 170px
+    }
+    .laptop-text{
         width: 60%;
         position: absolute;
         top: 210px;
         left: 100px;
         z-index: 2000;
      }
-     .laptop-text, .browser-text,
-     .clients-column, .design-content-alt{
-         margin-bottom: 20px;
-     }
+    .laptop-text, .browser-text,
+    .clients-column, .design-content-alt{
+    margin-bottom: 20px;
+    }
     .design-content-alt{
        margin-left: 10px;  
        margin-top: 10px;
-    }
-    
+    }    
     .clients-row{
         flex-direction: column;
     }    
@@ -627,7 +626,7 @@ and (max-width: 800px) {
         flex-direction: column;
         align-items: center;
         height: 400px;        
-     }
+    }
     .try-now-arrow-img{
         right: calc(50% + 50px);
         top: 380px;
@@ -637,8 +636,13 @@ and (max-width: 800px) {
         top: 350px;
     }
     .try-now-button{
+        width: 100%;
         margin-top: 75px;
     }
+    .try-now-input{
+        width: 90%;
+    }
+    
     .footer-content{
         flex-direction: column;
     }
@@ -669,11 +673,10 @@ and (max-width: 1023px) {
     }
     .macbook{
     left: -160px;
-}
+    }
     .design-content-alt{
         margin-left: 462px;
-    }
-    
+    }    
     .clients-column{
        margin-bottom: 30px;
     }
@@ -682,22 +685,18 @@ and (max-width: 1023px) {
     }
     .try-now-input-row{
         flex-wrap: wrap;
-     
-      
     }
     .try-now-input{
         width: 200px;
-    }
-  
+    }  
     .try-now-button{
         margin-top: 75px;
-       
     }
     .logo-row {
-            display: none;
-   }
-   
+        display: none;
+    }
 } 
+
 @media screen and (min-width: 1024px) 
 and (max-width: 1300px) {
     .centr-position {
@@ -707,8 +706,8 @@ and (max-width: 1300px) {
         right: -10px;
     }
 }
-@media screen and (min-width: 1024px) 
- {
+
+@media screen and (min-width: 1024px)  {
     .header{
         height: 813px;
     }       
@@ -721,8 +720,6 @@ and (max-width: 1300px) {
     .browser{
         height: 754px;
     }
-
-
 }  
 
 @media screen and (min-width: 801px) 
@@ -751,9 +748,3 @@ and (max-width: 1030px){
       right:  0px;
         top: 7px; }
 }
-
-/*
-.design, .features, .design-alt-section,
-.clients, .browser, .try-now, .footer{
-    display: none;
-}*/
