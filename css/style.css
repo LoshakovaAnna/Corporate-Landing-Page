@@ -157,6 +157,7 @@
     position: absolute;
     left: -100px;
     z-index: 1000;
+    max-width: 100%;
 }
 .design-alt-rect-gradient{
     position: absolute;
@@ -167,7 +168,7 @@
     background: linear-gradient(45deg, #fb8686 49%, #ffffff 0%);
 }
 .design-alt-section {
-  
+  min-height: 545px;
 }
 
 /*******************/
@@ -350,11 +351,11 @@
     position: absolute;
 }
 .try-now-arrow-img{
-    left: 900px;
+    right:  187px;
     top: 41px;
 }
 .try-now-sale{
-    left: 930px;
+    right:  22px;
     top: 7px;  
     height: 18px;
     color: #f6f5f3;
@@ -539,11 +540,11 @@
         height: 370px;        
     }
     .try-now-arrow-img{
-        left: calc(50% - 110px);
+        right: calc(50% + 50px);
         top: 360px;
     }
     .try-now-sale{
-        left: calc(50% - 80px);
+        right: calc(50% - 110px);
         top: 330px;
     }
     .try-now-button{
@@ -598,7 +599,7 @@ and (max-width: 800px) {
         top: 170px
      }
      .laptop-text{
-        width: 445px;
+        width: 60%;
         position: absolute;
         top: 210px;
         left: 100px;
@@ -612,9 +613,7 @@ and (max-width: 800px) {
        margin-left: 10px;  
        margin-top: 10px;
     }
-    .design-alt-section{
-        height: 545px;
-    }
+    
     .clients-row{
         flex-direction: column;
     }    
@@ -624,11 +623,11 @@ and (max-width: 800px) {
         height: 400px;        
      }
     .try-now-arrow-img{
-        left: calc(50% - 110px);
+        right: calc(50% + 50px);
         top: 380px;
     }
     .try-now-sale{
-        left: calc(50% - 80px);
+        right:  calc(50% - 110px);
         top: 350px;
     }
     .try-now-button{
@@ -637,6 +636,7 @@ and (max-width: 800px) {
     .footer-content{
         flex-direction: column;
     }
+
     .logo-row,  .browser-img, .design-alt-rect-gradient,
     .design-right-column-rect,
     .headphone{
@@ -664,15 +664,13 @@ and (max-width: 1023px) {
     .cup-coffee{
         right: 0;
     }
-        .macbook{
-        left: -160px;
-    }
+    .macbook{
+    left: -160px;
+}
     .design-content-alt{
         margin-left: 462px;
     }
-     .design-alt-section{
-        height: 550px;
-    }
+    
     .clients-column{
        margin-bottom: 30px;
     }
@@ -687,20 +685,13 @@ and (max-width: 1023px) {
     .try-now-input{
         width: 200px;
     }
-    .try-now-arrow-img{
-        left: 20px;
-        top: 169px;
-    }
-    .try-now-sale{
-        left: 50px;
-        top: 140px;
-    }
+  
     .try-now-button{
         margin-top: 75px;
        
     }
     .logo-row {
-    display: none;
+            display: none;
    }
    .footer{
        display: none;
@@ -734,6 +725,33 @@ and (max-width: 1300px) {
         display: none;
     }
 }  
+
+@media screen and (min-width: 801px) 
+and (max-width: 959px){
+    .try-now-arrow-img{
+        left: 20px;
+        top: 169px;
+    }
+    .try-now-sale{
+        right: calc(100% - 243px);
+        top: 140px;
+    }
+}
+@media screen and (min-width: 960px) 
+and (max-width: 1030px){
+
+    .try-now-button{
+        margin-top: 0px;
+        width: 200px;
+    }
+     .try-now-arrow-img{
+      right:  165px;
+        top: 41px;
+    }
+    .try-now-sale{
+      right:  0px;
+        top: 7px; }
+}
 
 /*
 .design, .features, .design-alt-section,
