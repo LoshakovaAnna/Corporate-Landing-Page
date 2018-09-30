@@ -305,7 +305,7 @@
     width: 100%;
 }
 .try-now-input{
-    width: 261px;
+    width: 232px;
     height: 46px;
     border-radius: 3px;
     border: 1px solid #ffffff;
@@ -345,8 +345,13 @@
     font-size: 16px;    
     letter-spacing: 0.64px;
     padding-top: 50px;
-
+    padding-right: 10px;
+    text-align: center;
     padding-bottom: 75px;
+}
+.row-agreenment{
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .try-now-arrow-img, .try-now-sale{
     position: absolute;
@@ -601,8 +606,8 @@ and (max-width: 800px) {
         right: 0;
     }    
     .macbook{
-    left: 0;
-    top: 170px
+        left: 0;
+        top: 170px
     }
     .laptop-text{
         width: 60%;
@@ -610,10 +615,10 @@ and (max-width: 800px) {
         top: 210px;
         left: 100px;
         z-index: 2000;
-     }
+    }
     .laptop-text, .browser-text,
     .clients-column, .design-content-alt{
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     }
     .design-content-alt{
        margin-left: 10px;  
@@ -672,7 +677,7 @@ and (max-width: 1023px) {
         right: 0;
     }
     .macbook{
-    left: -160px;
+        left: -160px;
     }
     .design-content-alt{
         margin-left: 462px;
@@ -684,13 +689,9 @@ and (max-width: 1023px) {
         max-width: 100%;
     }
     .try-now-input-row{
-        flex-wrap: wrap;
-    }
-    .try-now-input{
-        width: 200px;
-    }  
-    .try-now-button{
-        margin-top: 75px;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;        
     }
     .logo-row {
         display: none;
@@ -720,31 +721,8 @@ and (max-width: 1300px) {
     .browser{
         height: 754px;
     }
+    .try-now-input{
+        margin-right: 10px;
+    }
 }  
 
-@media screen and (min-width: 801px) 
-and (max-width: 959px){
-    .try-now-arrow-img{
-        left: 20px;
-        top: 169px;
-    }
-    .try-now-sale{
-        right: calc(100% - 243px);
-        top: 140px;
-    }
-}
-@media screen and (min-width: 960px) 
-and (max-width: 1030px){
-
-    .try-now-button{
-        margin-top: 0px;
-        width: 200px;
-    }
-     .try-now-arrow-img{
-      right:  165px;
-        top: 41px;
-    }
-    .try-now-sale{
-      right:  0px;
-        top: 7px; }
-}
